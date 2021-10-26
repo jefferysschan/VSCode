@@ -1,7 +1,14 @@
-#navbar {
-    background-color:darkgray
+.navbar {
+    background-color:gray;
 }
 
-.navbar_item {
-    display: inline
+.navbar ul {
+    height: 100px;
+}
+
+.navbar ul li{
+    display: inline;
+    height: 100px;
+    line-height: 100px;
+    
 }
