@@ -1,14 +1,26 @@
-.navbar {
+.navbar_container{
     background-color:gray;
-}
-
-.navbar ul {
-    height: 100px;
-}
-
-.navbar ul li{
-    display: inline;
+    display: flex;
+    justify-content: space-evenly;
     height: 100px;
     line-height: 100px;
     
 }
+
+.navbar_container div{
+    background: gray;
+    transition: background 0.5s;
+    transition: transform .7s ease-in-out;
+}
+
+.navbar_container div:hover{
+    background: orange; 
+    /* transition: background 1s; */
+    transform: rotate(360deg);
+}
+
+/* .navbar_text:hover {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform:rotate(45deg);
+} */
